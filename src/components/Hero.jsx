@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -32,12 +33,12 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="mt-6"
         >
-          <a href="/menu" className="bg-gray-900 hover:bg-gray-800 text-white font-body  px-6 py-3 rounded-lg text-lg transition">
+          <Link to="/menu" className="bg-gray-900 hover:bg-gray-800 text-white font-body  px-6 py-3 rounded-lg text-lg transition">
             View Menu
-          </a>
-          <a href="/reservation" className="bg-gray-900 hover:bg-gray-800 text-white font-body  px-6 py-3 rounded-lg text-lg transition ml-2">
+          </Link>
+          <Link to="/reservation" className="bg-gray-900 hover:bg-gray-800 text-white font-body  px-6 py-3 rounded-lg text-lg transition ml-2">
             Book your table
-          </a>
+          </Link>
         </motion.div>
       </div>
     </section>
