@@ -28,7 +28,7 @@ const Navbar = () => {
    <div className='relative z-50'>
     <nav className='bg-gray-900 p-4 text-white'>
         <div className='container mx-auto flex justify-between items-center'>
-            <h1 className='text-2xl font-bold font-heading'>Fine Dine</h1>
+            <Link to='/' className='text-2xl font-bold font-heading'>Fine Dine</Link>
 
             {/* desktop Menu */}
             <div className='hidden md:flex space-x-6'>
