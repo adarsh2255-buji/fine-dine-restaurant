@@ -55,6 +55,7 @@ const ReservationForm = () => {
         <input
           type="date"
           name="date"
+          placeholder="Date"
           value={formData.date}
           onChange={handleChange}
           required
@@ -65,6 +66,7 @@ const ReservationForm = () => {
         <input
           type="time"
           name="time"
+          placeholder="Time"
           value={formData.time}
           onChange={handleChange}
           required
