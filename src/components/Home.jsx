@@ -6,7 +6,7 @@ import CallToAction from './CallToAction'
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full overflow-hidden">
         <Hero />
         <SpecialDishes />
         <Reviews />
