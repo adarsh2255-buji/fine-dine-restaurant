@@ -13,7 +13,7 @@ const Menu = () => {
       : menuData.filter((item) => item.category === category);
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto p-6 w-full overflow-hidden">
       <h1 className="text-4xl font-bold text-center mb-6">Our Menu</h1>
 
       {/* Category Buttons */}
